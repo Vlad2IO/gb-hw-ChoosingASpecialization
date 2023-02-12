@@ -5,7 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="/app.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <h2>Программа:</h2>
+    <form id = "form">
+      <fieldset>
+      <legend>Программа</legend>
+      <p>Введите массив строк через - ","</p>
+      <p>Примеры:</p>
+      <ul>
+        <li>hello,2,world,:-)
+        </li>
+        <li>1234,1567,-2,computer science
+        </li>
+        <li>Russia,Denmark,Kazan
+        </li>
+      </ul>
+      <label for="name">Массив</label>
+      <input class="js-input-arr" type="text" placeholder="Введите массив">
+      <button class="js-btn-result" type="button">Вычислить</button>
+      <p>Результат:</p>
+      <p class="js-output"></p>
+      </fieldset>
+    </form>
+
+    <br>
+    <hr />
+    <h2>Описание:</h2>
+    <img src="/Description.png" alt="" />
+
+    <script src="/app.js"></script>
+    <script src="/index.js"></script>
+  </body>
 </html>
