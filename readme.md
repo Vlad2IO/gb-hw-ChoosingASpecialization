@@ -1,2 +1,2 @@
 ## Описание
-![Описание](Description.png)
+![Описание](description.png)
